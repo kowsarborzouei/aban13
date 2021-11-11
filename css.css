@@ -1,31 +1,89 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;;
+
 }
-#container{
-    width: 100%;
-    height: 90%;
-    background-color: palegreen;
+
+.mainContainer {
+    background-color: #E9E9E9;
+
+
+}
+
+#cardContainer {
+    width: 90%;
+    height: auto;
+    background-color: #E9E9E9;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    row-gap: 20px;
-    column-gap: 20px;
+    row-gap: 30px;
+    column-gap: 40px;
     padding: 20px 10px;
+    margin: auto;
 }
-.card{
-    width: 20vw;
-    height: 50vh;
-    background-color: palevioletred;
+
+.card {
+    width: 15vw;
+    height: 41vh;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(193, 197, 197, 0.7);
+    border-radius: 6px;
 }
-input{
-    width: 100%;
+
+.label {
+    background-color: #16171B;
+}
+
+#input {
+    width: 92%;
     height: 25px;
+    margin: 5px 0 8px 55px
 }
-.photo{
+
+.photo {
     width: 100%;
-    height: 80%;
+    height: 75%;
+}
+h1{
+    margin-left: 5vw;
+}
+.rate{
+    float: right;
+    cursor: pointer;
+    color: dodgerblue;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+.time{
+    float: right;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+.date{
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+.card--text{
+    padding: 5px;
+}
+.mark{
+    float: right;
+    align-items: center;
+    font-size: 0.7rem;
+}
+.dec{
+    font-size: 0.7rem;
+    padding: 3px 0;
+}
+.title{
+    font-weight: bold;
+    font-size: 1rem;
+}
+.main{
+    padding: 0 8vw;
 }

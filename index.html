@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <title>card</title>
     <link rel="stylesheet" href="css.css">
-    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-<div>
-    <input type="text" id="mySearch" oninput="onSearch(this)">
-</div>
-<div id="container">
-    <div class="card">
-        <img class="photo" src="img.png">
-        <div>
-            <h3 class="title">hello</h3>
-            <p class="dec">Lorem ipsum dolor.</p>
+<div class="main">
+    <div class="label">
+        <input id="input" type="text" placeholder="Search" oninput="onSearch(this)">
+    </div>
+    <div class="mainContainer">
+        <h1>Movies</h1>
+        <div id="cardContainer">
         </div>
     </div>
 </div>
-    <script src="script.js"></script>
+
+<script src="script.js"></script>
 </body>
 </html>
